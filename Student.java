@@ -15,10 +15,10 @@ public class Student extends Man{
 		super();
 	}
 
-	public int getNrb() {
+	public int getId() {
 		return id;
 	}
-	public void setNrb(int id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 	public String getLastname() {

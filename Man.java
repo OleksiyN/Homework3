@@ -12,11 +12,13 @@ public class Man {
 		this.weight = weight;
 		this.height = height;
 	}
+
 	public Man(boolean sex, int age) {
 		super();
 		this.sex = sex;
 		this.age = age;
 	}
+
 	public Man() {
 		super();
 
@@ -53,6 +55,7 @@ public class Man {
 	public void setHeight(double height) {
 		this.height = height;
 	}
+
 	@Override
 	public String toString() {
 		return ", sex=" + sex + ", age=" + age + "]";
